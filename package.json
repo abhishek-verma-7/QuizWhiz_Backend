@@ -1,0 +1,17 @@
+{
+  "name": "quizwhiz_backend",
+  "version": "1.0.0",
+  "description": "Backend for QuizWhiz App with Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Abhishek Verma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "uuid": "^10.0.0"
+  }
+}
