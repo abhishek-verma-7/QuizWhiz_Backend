@@ -8,7 +8,7 @@ const quizzes = {
             category: "marvel",
             image: "https://parade.com/.image/c_limit%2Ccs_srgb%2Cq_auto:good%2Cw_700/MTkwNTgwOTkzMTk0MDc1MjYx/marvel-quiz-copy.webp",
             title: "Marvel",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
+            description: "Test your knowledge of Marvel's iconic heroes, epic battles, and unforgettable stories. Challenge yourself with questions from the vast Marvel Universe.",
             quiz: [
                 //1st question and options
                 {
@@ -62,7 +62,7 @@ const quizzes = {
             category: "dc",
             image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
             title: "DC",
-            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tristique quis nunc eget rutrum",
+            description: "Dive into the world of DC heroes and villains! From Gotham’s shadows to Metropolis' skyline, discover how much you truly know about the DC Universe!",
             quiz: [
                 {
                     id: uuid(),
