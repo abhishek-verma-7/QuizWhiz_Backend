@@ -1,12 +1,4 @@
-import geog from "../assets/geog.svg";
-import history from "../assets/history.svg";
-import math from "../assets/maths.svg";
-import book from "../assets/book.svg";
-import comics from "../assets/comics.svg";
-import science from "../assets/science.svg";
-import tech from "../assets/tech.svg";
-import sports from "../assets/sports.svg";
-import vehicle from "../assets/vehicle.svg";
+const maths = require("../assets/maths.svg");
 
 const { v4: uuid } = require("uuid")
 
@@ -119,7 +111,7 @@ const quizzes = {
         {
             id: uuid(),
             category: "education",
-            img: math,
+            img: maths,
             title: "Mathematics",
             description: "Do you believe you are a maths genius??? Test your skills to check if you actually are a genius or a noob.",
             quiz: [
