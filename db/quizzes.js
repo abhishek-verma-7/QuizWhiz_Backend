@@ -1,5 +1,5 @@
 
-const maths = require("../assets/maths.svg");
+// const maths = require("../assets/maths.svg");
 
 
 const { v4: uuid } = require("uuid")
@@ -113,7 +113,7 @@ const quizzes = {
         {
             id: uuid(),
             category: "education",
-            img: maths,
+            image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
             title: "Mathematics",
             description: "Do you believe you are a maths genius??? Test your skills to check if you actually are a genius or a noob.",
             quiz: [
