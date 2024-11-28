@@ -209,49 +209,49 @@ const quizzes = {
         //5th quiz
         {
             id: uuid(),
-            category: "education",
+            category: "entertainment",
             image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
-            title: "Geography",
-            description: "Do you know where is the highest cricket ground in the world. I bet you don't know enough to get through.",
+            title: "Comics",
+            description: "Are you a comics fan, do you love reading comics then try this out. I bet you don't know enough to get through.",
             quiz: [
                 {
                     id: uuid(),
-                    question: "Which of these countries is the smallest by population?",
+                    question: "What otherworldly land does Thor come from?",
                     options: [
-                        { id: uuid(), option: "Norway", isCorrect: true },
-                        { id: uuid(), option: "Finland", isCorrect: false },
-                        { id: uuid(), option: "Hong Kong", isCorrect: false },
-                        { id: uuid(), option: "Slovakia", isCorrect: false }
+                        { id: uuid(), option: "Jotunheim", isCorrect: false },
+                        { id: uuid(), option: "Asgard", isCorrect: true },
+                        { id: uuid(), option: "Sovengarde", isCorrect: false },
+                        { id: uuid(), option: "Midgard", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "The following Spanish provinces are located in the northern area of Spain except:",
+                    question: "In the DC Comics 2016 reboot, Rebirth, which speedster escaped from the Speed Force after he had been erased from existance?",
                     options: [
-                        { id: uuid(), option: "Asturias", isCorrect: false },
-                        { id: uuid(), option: "Murcia", isCorrect: true },
-                        { id: uuid(), option: "Leon", isCorrect: false },
-                        { id: uuid(), option: "Navarre", isCorrect: false }
+                        { id: uuid(), option: "Jay Garrick", isCorrect: false },
+                        { id: uuid(), option: "Johnny Quick", isCorrect: false },
+                        { id: uuid(), option: "Wally West", isCorrect: true },
+                        { id: uuid(), option: "Eobard Thawne", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "What is the capital city of Slovenia?",
+                    question: "Which Batman sidekick is the son of Talia al Ghul?",
                     options: [
-                        { id: uuid(), option: "Maribor", isCorrect: false },
-                        { id: uuid(), option: "Velenje", isCorrect: false },
-                        { id: uuid(), option: "Trbovlje", isCorrect: false },
-                        { id: uuid(), option: "Ljubljana", isCorrect: true }
+                        { id: uuid(), option: "Jason Todd", isCorrect: false },
+                        { id: uuid(), option: "Tim Drake", isCorrect: false },
+                        { id: uuid(), option: "Dick Grayson", isCorrect: false },
+                        { id: uuid(), option: "Damian Wayne", isCorrect: true }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "Which of the following language families is the most controversial amongst modern linguists?",
+                    question: "What is the name of the comic about a young boy, and a tiger who is actually a stuffed animal?",
                     options: [
-                        { id: uuid(), option: "Indo-European", isCorrect: false },
-                        { id: uuid(), option: "Dravidian", isCorrect: false },
-                        { id: uuid(), option: "Sino-Tibetan", isCorrect: false },
-                        { id: uuid(), option: "Altaic", isCorrect: true }
+                        { id: uuid(), option: "Winnie the Pooh", isCorrect: false },
+                        { id: uuid(), option: "Peanuts", isCorrect: false },
+                        { id: uuid(), option: "Calvin and Hobbes", isCorrect: true },
+                        { id: uuid(), option: "Albert and Pogo", isCorrect: false }
                     ]
                 },
             ]
@@ -259,49 +259,49 @@ const quizzes = {
         //6th quiz
         {
             id: uuid(),
-            category: "education",
+            category: "sports",
             image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
-            title: "Mathematics",
-            description: "Do you believe you are a maths genius??? Test your skills to check if you actually are a genius or a noob.",
+            title: "Sports",
+            description: "Do you know the best players across multiple sports field, if yes then try it out. I bet you don't know enough to get through.",
             quiz: [
                 {
                     id: uuid(),
-                    question: "What was Wonder Woman originally named?",
+                    question: "Which car manufacturer won the 2017 24 Hours of Le Mans?",
                     options: [
-                        { id: uuid(), option: "Anita", isCorrect: false },
-                        { id: uuid(), option: "Suprema", isCorrect: true },
-                        { id: uuid(), option: "Mishita", isCorrect: false },
-                        { id: uuid(), option: "None", isCorrect: false }
+                        { id: uuid(), option: "Toyota", isCorrect: false },
+                        { id: uuid(), option: "Audi", isCorrect: false },
+                        { id: uuid(), option: "Porsche", isCorrect: true },
+                        { id: uuid(), option: "Chevrolet", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "Which supervillain was once the Iranian Ambassador to the U.N.?",
+                    question: "Which country did Kabaddi, a contact sport involving tackling, originate from?",
                     options: [
-                        { id: uuid(), option: "Wonder Man", isCorrect: false },
-                        { id: uuid(), option: "Superman", isCorrect: false },
-                        { id: uuid(), option: "The Joker", isCorrect: true },
-                        { id: uuid(), option: "Batman", isCorrect: false }
+                        { id: uuid(), option: "Cambodia", isCorrect: false },
+                        { id: uuid(), option: "Turkey", isCorrect: false },
+                        { id: uuid(), option: "Australia", isCorrect: false },
+                        { id: uuid(), option: "India", isCorrect: true }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "What is batman's favorite food?",
+                    question: "Which Formula 1 driver switched teams in the middle of the 2017 season?",
                     options: [
-                        { id: uuid(), option: "Chicken Salad", isCorrect: false },
-                        { id: uuid(), option: "Turkey Roast", isCorrect: false },
-                        { id: uuid(), option: "Goat Ribbs", isCorrect: false },
-                        { id: uuid(), option: "Mulligatawny soup", isCorrect: true }
+                        { id: uuid(), option: "Haryanto", isCorrect: false },
+                        { id: uuid(), option: "Jolyon Palmer", isCorrect: false },
+                        { id: uuid(), option: "Daniil Kvyat", isCorrect: false },
+                        { id: uuid(), option: "Carlos Sainz Jr.", isCorrect: true }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "In how many seconds can Green Arrow shoot and reload?",
+                    question: "How many games did Arsenal FC go unbeaten during the 2003-2004 season of the English Premier League?",
                     options: [
-                        { id: uuid(), option: "Two and a half seconds", isCorrect: true },
-                        { id: uuid(), option: "Two seconds", isCorrect: false },
-                        { id: uuid(), option: "One seconds", isCorrect: false },
-                        { id: uuid(), option: "One and a half seconds", isCorrect: false }
+                        { id: uuid(), option: "38", isCorrect: true },
+                        { id: uuid(), option: "51", isCorrect: false },
+                        { id: uuid(), option: "49", isCorrect: false },
+                        { id: uuid(), option: "22", isCorrect: false }
                     ]
                 },
             ]
@@ -309,49 +309,49 @@ const quizzes = {
         //7th quiz
         {
             id: uuid(),
-            category: "education",
+            category: "vehicles",
             image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
-            title: "Mathematics",
-            description: "Do you believe you are a maths genius??? Test your skills to check if you actually are a genius or a noob.",
+            title: "Vehicle",
+            description: "Do you know the best superbikes and super cars, if yes then try it out. I bet you don't know enough to get through.",
             quiz: [
                 {
                     id: uuid(),
-                    question: "What was Wonder Woman originally named?",
+                    question: "What part of an automobile engine uses lobes to open and close intake and exhaust valves, and allows an air/fuel mixture into the engine?",
                     options: [
-                        { id: uuid(), option: "Anita", isCorrect: false },
-                        { id: uuid(), option: "Suprema", isCorrect: true },
-                        { id: uuid(), option: "Mishita", isCorrect: false },
-                        { id: uuid(), option: "None", isCorrect: false }
+                        { id: uuid(), option: "Camshaft", isCorrect: true },
+                        { id: uuid(), option: "Piston", isCorrect: false },
+                        { id: uuid(), option: "Crankshaft", isCorrect: false },
+                        { id: uuid(), option: "Drive shaft", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "Which supervillain was once the Iranian Ambassador to the U.N.?",
+                    question: "Complete the following analogy: Audi is to Volkswagen as Infiniti is to ?",
                     options: [
-                        { id: uuid(), option: "Wonder Man", isCorrect: false },
-                        { id: uuid(), option: "Superman", isCorrect: false },
-                        { id: uuid(), option: "The Joker", isCorrect: true },
-                        { id: uuid(), option: "Batman", isCorrect: false }
+                        { id: uuid(), option: "Nissan", isCorrect: true },
+                        { id: uuid(), option: "Honda", isCorrect: false },
+                        { id: uuid(), option: "Subaru", isCorrect: false },
+                        { id: uuid(), option: "Hyundai", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "What is batman's favorite food?",
+                    question: "Which supercar company is from Sweden?",
                     options: [
-                        { id: uuid(), option: "Chicken Salad", isCorrect: false },
-                        { id: uuid(), option: "Turkey Roast", isCorrect: false },
-                        { id: uuid(), option: "Goat Ribbs", isCorrect: false },
-                        { id: uuid(), option: "Mulligatawny soup", isCorrect: true }
+                        { id: uuid(), option: "McLaren", isCorrect: false },
+                        { id: uuid(), option: "Lamborghinit", isCorrect: false },
+                        { id: uuid(), option: "Bugatti", isCorrect: false },
+                        { id: uuid(), option: "Koenigsegg", isCorrect: true }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "In how many seconds can Green Arrow shoot and reload?",
+                    question: "Which animal features on the logo for Abarth, the motorsport division of Fiat?",
                     options: [
-                        { id: uuid(), option: "Two and a half seconds", isCorrect: true },
-                        { id: uuid(), option: "Two seconds", isCorrect: false },
-                        { id: uuid(), option: "One seconds", isCorrect: false },
-                        { id: uuid(), option: "One and a half seconds", isCorrect: false }
+                        { id: uuid(), option: "Horse", isCorrect: false },
+                        { id: uuid(), option: "Snake", isCorrect: false },
+                        { id: uuid(), option: "Scorpion", isCorrect: true },
+                        { id: uuid(), option: "Bull", isCorrect: false }
                     ]
                 },
             ]
@@ -359,49 +359,49 @@ const quizzes = {
         //8th quiz
         {
             id: uuid(),
-            category: "education",
+            category: "History",
             image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
-            title: "Mathematics",
-            description: "Do you believe you are a maths genius??? Test your skills to check if you actually are a genius or a noob.",
+            title: "education",
+            description: "Challenge yourself to take this quiz on Indian History??? I bet you cannot get more than an average child.",
             quiz: [
                 {
                     id: uuid(),
-                    question: "What was Wonder Woman originally named?",
+                    question: "In the War of the Pacific (1879 - 1883), Bolivia lost its access to the Pacific Ocean after being defeated by which South American country?",
                     options: [
-                        { id: uuid(), option: "Anita", isCorrect: false },
-                        { id: uuid(), option: "Suprema", isCorrect: true },
-                        { id: uuid(), option: "Mishita", isCorrect: false },
-                        { id: uuid(), option: "None", isCorrect: false }
+                        { id: uuid(), option: "Argentina", isCorrect: false },
+                        { id: uuid(), option: "Chile", isCorrect: true },
+                        { id: uuid(), option: "Peru", isCorrect: false },
+                        { id: uuid(), option: " Brazil", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "Which supervillain was once the Iranian Ambassador to the U.N.?",
+                    question: "Joseph Stalin had a criminal past doing what?",
                     options: [
-                        { id: uuid(), option: "Wonder Man", isCorrect: false },
-                        { id: uuid(), option: "Superman", isCorrect: false },
-                        { id: uuid(), option: "The Joker", isCorrect: true },
-                        { id: uuid(), option: "Batman", isCorrect: false }
+                        { id: uuid(), option: "Identity Fraud", isCorrect: false },
+                        { id: uuid(), option: "Tax Evasion", isCorrect: false },
+                        { id: uuid(), option: "Robbing Trains", isCorrect: true },
+                        { id: uuid(), option: "Murder for Hire", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "What is batman's favorite food?",
+                    question: "Which of the following ancient Near Eastern peoples still exists as a modern ethnic group?",
                     options: [
-                        { id: uuid(), option: "Chicken Salad", isCorrect: false },
-                        { id: uuid(), option: "Turkey Roast", isCorrect: false },
-                        { id: uuid(), option: "Goat Ribbs", isCorrect: false },
-                        { id: uuid(), option: "Mulligatawny soup", isCorrect: true }
+                        { id: uuid(), option: "Babylonians", isCorrect: false },
+                        { id: uuid(), option: "Hittites", isCorrect: false },
+                        { id: uuid(), option: "Assyrians", isCorrect: true },
+                        { id: uuid(), option: "Elamites", isCorrect: false }
                     ]
                 },
                 {
                     id: uuid(),
-                    question: "In how many seconds can Green Arrow shoot and reload?",
+                    question: "Who was the first president born in the independent United States?",
                     options: [
-                        { id: uuid(), option: "Two and a half seconds", isCorrect: true },
-                        { id: uuid(), option: "Two seconds", isCorrect: false },
-                        { id: uuid(), option: "One seconds", isCorrect: false },
-                        { id: uuid(), option: "One and a half seconds", isCorrect: false }
+                        { id: uuid(), option: "Martin Van Buren", isCorrect: true },
+                        { id: uuid(), option: "John Adams", isCorrect: false },
+                        { id: uuid(), option: "George Washington", isCorrect: false },
+                        { id: uuid(), option: "James Monroe", isCorrect: false }
                     ]
                 },
             ]
