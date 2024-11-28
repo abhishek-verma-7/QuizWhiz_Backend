@@ -356,12 +356,12 @@ const quizzes = {
                 },
             ]
         },
-        //8th quiz
+        //8th quiz  
         {
             id: uuid(),
-            category: "History",
+            category: "education",
             image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
-            title: "education",
+            title: "History",
             description: "Challenge yourself to take this quiz on Indian History??? I bet you cannot get more than an average child.",
             quiz: [
                 {
