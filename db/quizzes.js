@@ -110,7 +110,7 @@ const quizzes = {
         {
             id: uuid(),
             category: "education",
-            image: "https://media.proprofs.com/images/QM/user_images/2503852/New%20Project%20(56)(110).jpg",
+            image: "https://img.freepik.com/free-vector/maths-realistic-chalkboard-background_23-2148159115.jpg?semt=ais_hybrid",
             title: "Mathematics",
             description: "Do you believe you are a maths genius??? Test your skills to check if you actually are a genius or a noob.",
             quiz: [
